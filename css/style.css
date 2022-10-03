@@ -9,6 +9,11 @@ nav {
     display: flex;
 }
 
+h1 {
+    font-size: 3rem;
+    font-family: Arial;
+}
+
 .nav-wrapper {
     display: flex;
     padding: .5rem 0;
@@ -49,4 +54,33 @@ li {
     padding: 5px 5px;
     border: none;
 
+}
+
+.background {
+    background-color: rgb(174 208 234);
+}
+
+.large-container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.header-container {
+    display: flex;
+}
+
+.text-header {
+    flex-basis: 29%;
+}
+
+.img-header {
+    flex-basis: 71%;
+}
+
+.image-header {
+    width: 100%;
+}
+
+.padding-header {
+    padding-top: 5%;
 }

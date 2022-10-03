@@ -1,5 +1,6 @@
 :root {
     --color: rgba(0 72 255);
+    --bg: rgb(174 208 234);
 }
 
 * {
@@ -8,6 +9,9 @@
     box-sizing: border-box;
 }
 
+body {
+    font-family: arial;
+}
 
 nav {
     background-color: white;
@@ -34,6 +38,12 @@ h4 {
     font-family: Arial;
     padding: 15px 0;
 }
+
+h5 {
+    font-size: .9rem;
+    font-family: Arial;
+}
+
 
 .nav-wrapper {
     display: flex;
@@ -82,7 +92,7 @@ li {
 }
 
 .background {
-    background-color: rgb(174 208 234);
+    background-color: var(--bg);
 }
 
 .large-container {
@@ -90,11 +100,11 @@ li {
     margin: 0 auto;
 }
 
-.header-container {
+.container-section {
     display: flex;
 }
 
-.text-header {
+.description-header {
     flex-basis: 29%;
 }
 
@@ -173,4 +183,47 @@ li {
 
 .card .lista-card {
     line-height: 25px;
+}
+
+.second-card {
+    border: 1px solid rgb(175, 175, 175);
+    margin-top: 40px;
+    padding: 20px;
+    display: flex;
+}
+
+.second-card .title-card {
+    border: none;
+    flex-basis: 70%;
+    text-align: left;
+}
+
+.second-card .button-second-card {
+    flex-basis: 30%;
+    text-align: right;
+}
+
+.button-white {
+    color: black;
+    border: 1px solid black;
+    background-color: white;
+    padding: 8px;
+}
+
+.padding {
+    padding: 40px;
+}
+
+.description-container {
+    flex-basis: 40%;
+}
+
+.img-container {
+    flex-basis: 60%;
+    position: relative;
+}
+
+.image-container {
+    width: 100%;
+    position: absolute;
 }

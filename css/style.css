@@ -16,16 +16,16 @@ h1 {
 
 .nav-wrapper {
     display: flex;
-    padding: .5rem 0;
+    padding: .5rem .1rem;
 }
 
-a {
+header a {
     text-decoration: none;
     padding: 0.5em 0.5em;
     color: #333;
 }
 
-ul {
+header ul {
     display: flex;
     padding-top: .8em;
 }
@@ -51,9 +51,13 @@ li {
 .button-blue {
     color: white;
     background-color: rgba(0 72 255);
-    padding: 5px 5px;
+    padding: 8px 8px;
     border: none;
 
+}
+
+.button-small {
+    padding: 5px 5px;
 }
 
 .background {
@@ -75,12 +79,62 @@ li {
 
 .img-header {
     flex-basis: 71%;
+    position: relative;
 }
 
 .image-header {
     width: 100%;
+    position: absolute;
 }
 
 .padding-header {
-    padding-top: 5%;
+    padding-top: 6%;
+}
+
+.size-icon {
+    font-size: 36px;
+}
+
+.container {
+    max-width: 920px;
+    margin: 0 auto;
+}
+
+.margin-top {
+    margin-top: 100px;
+}
+
+.container-card {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card {
+    border: 1px solid rgb(175, 175, 175);
+    padding: 20px;
+}
+
+.title-card {
+    border-bottom: 1px solid rgb(175, 175, 175);
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.subtitle-card {
+    font-size: 18px;
+    font-family: Arial;
+    padding: 20px 0;
+
+}
+
+.periodo-card {
+    color: grey;
+}
+
+.lista-card {
+    padding: 40px 0 40px;
+}
+
+.link-card {
+    padding: 15px 0;
 }

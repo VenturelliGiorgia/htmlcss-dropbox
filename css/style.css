@@ -257,13 +257,13 @@ li {
 }
 
 .container-33-flex {
-    flex-basis: 33%;
+    flex-basis: 33.33%;
     display: flex;
     flex-wrap: wrap;
 }
 
 .container-33 {
-    flex-basis: 33%;
+    flex-basis: 33.33%;
 }
 
 .designit-logo {
@@ -290,11 +290,15 @@ li {
     background-color: red;
     width: 50%;
     height: 50%;
+    display: flex;
+    justify-content: center;
 }
 
 .svg-dimension {
     width: 150px;
+    filter: invert(96%) sepia(0%) saturate(7500%) hue-rotate(62deg) brightness(105%) contrast(101%);
 }
+
 
 .color-green {
     background-color: rgb(145 217 151);

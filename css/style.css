@@ -13,24 +13,31 @@ body {
     font-family: arial;
 }
 
+span {
+    color: rgb(90, 90, 90);
+    display: inline-block;
+}
+
 nav {
     background-color: white;
     display: flex;
 }
 
 h1 {
-    font-size: 3rem;
+    font-size: 4rem;
     font-family: Arial;
 }
 
 h2 {
     font-size: 2rem;
     font-family: Arial;
+    padding-bottom: 2rem;
 }
 
 h3 {
     font-size: 1.5rem;
     font-family: Arial;
+    padding-bottom: 2rem;
 }
 
 h4 {
@@ -44,6 +51,9 @@ h5 {
     font-family: Arial;
 }
 
+a {
+    color: blue;
+}
 
 .nav-wrapper {
     display: flex;
@@ -52,13 +62,13 @@ h5 {
 
 header a {
     text-decoration: none;
-    padding: 0.5em 0.5em;
+    padding: 0.5rem 0.2rem;
     color: #333;
 }
 
 header ul {
     display: flex;
-    padding-top: .8em;
+    padding-top: .8rem;
 }
 
 li {
@@ -71,7 +81,7 @@ li {
 }
 
 .logo {
-    padding-top: .6em;
+    padding-top: .6rem;
 }
 
 .second-section {
@@ -82,13 +92,9 @@ li {
 .button-blue {
     color: white;
     background-color: var(--color);
-    padding: 8px 8px;
+    padding: 10px 10px;
     border: none;
 
-}
-
-.button-small {
-    padding: 5px 5px;
 }
 
 .background {
@@ -138,18 +144,18 @@ li {
 .container-card {
     display: flex;
     flex-wrap: wrap;
-    gap: 1rem;
+    gap: 2rem;
 }
 
-.card {
+.card-plane {
     border: 1px solid rgb(175, 175, 175);
     padding: 20px;
-    width: 32%;
+    width: 30%;
 }
 
 .title-card {
     border-bottom: 1px solid rgb(175, 175, 175);
-    text-align: center;
+    text-align: left;
     padding-bottom: 20px;
 }
 
@@ -164,8 +170,16 @@ li {
     color: grey;
 }
 
+.prezzo-card {
+    padding: 1rem 0;
+}
+
 .lista-card {
     padding: 40px 0 40px;
+}
+
+.padding-top {
+    padding-top: 58px;
 }
 
 .link-card {
@@ -185,7 +199,7 @@ li {
     line-height: 25px;
 }
 
-.second-card {
+.second-card-plane {
     border: 1px solid rgb(175, 175, 175);
     margin-top: 40px;
     padding: 20px;
@@ -204,8 +218,8 @@ li {
 }
 
 .button-white {
-    color: black;
-    border: 1px solid black;
+    color: rgb(90, 90, 90);
+    border: 1px solid rgb(90, 90, 90);
     background-color: white;
     padding: 8px;
 }
@@ -214,7 +228,7 @@ li {
     padding: 40px;
 }
 
-.description-container {
+.container-40 {
     flex-basis: 40%;
 }
 
@@ -225,5 +239,33 @@ li {
 
 .image-container {
     width: 100%;
-    position: absolute;
+}
+
+
+.image-card-position {
+    width: 100%;
+}
+
+.container-60 {
+    flex-basis: 60%;
+}
+
+.card {
+    width: 30%;
+}
+
+.container-33 {
+    flex-basis: 33%;
+}
+
+.color-black {
+    color: black;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.padding-bottom {
+    padding-bottom: 30px;
 }

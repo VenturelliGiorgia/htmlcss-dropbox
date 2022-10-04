@@ -1,6 +1,8 @@
 :root {
     --color: rgba(0 72 255);
     --bg: rgb(174 208 234);
+    --bg-grey: rgb(245 245 245);
+    --footer-bg: black;
 }
 
 * {
@@ -18,7 +20,7 @@ span {
     display: inline-block;
 }
 
-nav {
+header nav {
     background-color: white;
     display: flex;
 }
@@ -254,18 +256,100 @@ li {
     width: 30%;
 }
 
+.container-33-flex {
+    flex-basis: 33%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
 .container-33 {
     flex-basis: 33%;
 }
 
-.color-black {
-    color: black;
-}
-
-.bold {
-    font-weight: bold;
+.designit-logo {
+    width: 60%;
 }
 
 .padding-bottom {
     padding-bottom: 30px;
+}
+
+.padding-top-30 {
+    padding-top: 30px;
+}
+
+.bg-grey {
+    background-color: var(--bg-grey);
+}
+
+.padding {
+    padding: 40px;
+}
+
+.container-square {
+    background-color: red;
+    width: 50%;
+    height: 50%;
+}
+
+.svg-dimension {
+    width: 150px;
+}
+
+.color-green {
+    background-color: rgb(145 217 151);
+}
+
+.color-bordaux {
+    background-color: rgb(108 0 40);
+}
+
+.color-lightblue {
+    background-color: rgb(0 146 213);
+}
+
+.color-lightred {
+    background-color: rgb(235 0 0);
+}
+
+.color-lightgrey {
+    background-color: rgb(174 208 234);
+}
+
+.color-yellow {
+    background-color: rgb(255 220 0);
+}
+
+.color-darkblue {
+    background-color: rgb(19 13 135);
+}
+
+.container-section-2 {
+    display: flex;
+    padding: 10% 0;
+    justify-content: space-between;
+}
+
+.style-text {
+    color: rgb(108 0 40);
+    padding-bottom: 0;
+}
+
+.border {
+    border: none;
+}
+
+.color-black {
+    color: black;
+    font-weight: bold;
+}
+
+.riga {
+    border: 1px solid rgb(169 169 169);
+}
+
+.section-domande {
+    display: flex;
+    justify-content: space-between;
+    padding: 35px 0;
 }

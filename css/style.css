@@ -27,6 +27,8 @@ span {
 header nav {
     background-color: white;
     display: flex;
+    padding: 0.5em .1rem;
+    justify-content: space-between;
 }
 
 h1 {
@@ -61,10 +63,6 @@ a {
     color: blue;
 }
 
-.nav-wrapper {
-    display: flex;
-    padding: .5rem .1rem;
-}
 
 header a {
     text-decoration: none;
@@ -87,12 +85,11 @@ li {
 }
 
 .logo {
-    padding-top: .6rem;
+    padding-top: .4rem;
 }
 
 .second-section {
     display: flex;
-    padding-left: 585px;
 }
 
 .button-blue {

@@ -15,6 +15,10 @@ body {
     font-family: arial;
 }
 
+img {
+    display: block;
+}
+
 span {
     color: rgb(90, 90, 90);
     display: inline-block;
@@ -143,6 +147,14 @@ li {
     margin-top: 100px;
 }
 
+.pt-3 {
+    padding-top: 3rem;
+}
+
+.pl-2 {
+    padding-left: 2rem;
+}
+
 .container-card {
     display: flex;
     flex-wrap: wrap;
@@ -260,6 +272,7 @@ li {
     flex-basis: 33.33%;
     display: flex;
     flex-wrap: wrap;
+    aspect-ratio: 1/1;
 }
 
 .container-33 {
@@ -296,7 +309,7 @@ li {
 
 .svg-dimension {
     width: 150px;
-    filter: invert(96%) sepia(0%) saturate(7500%) hue-rotate(62deg) brightness(105%) contrast(101%);
+    filter: invert(1);
 }
 
 

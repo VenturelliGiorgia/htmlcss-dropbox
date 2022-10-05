@@ -92,6 +92,14 @@ li {
     display: flex;
 }
 
+.text-center {
+    text-align: center;
+}
+
+.text-left {
+    text-align: left;
+}
+
 .button-blue {
     color: white;
     background-color: var(--color);
@@ -166,7 +174,6 @@ li {
 
 .title-card {
     border-bottom: 1px solid rgb(175, 175, 175);
-    text-align: left;
     padding-bottom: 20px;
 }
 

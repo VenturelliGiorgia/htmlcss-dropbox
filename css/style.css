@@ -295,6 +295,10 @@ li {
     background-color: var(--bg-grey);
 }
 
+.bg-footer {
+    background-color: var(--footer-bg);
+}
+
 .padding {
     padding: 40px;
 }
@@ -343,7 +347,7 @@ li {
 
 .container-section-2 {
     display: flex;
-    padding: 10% 0;
+    padding: 12% 0;
     justify-content: space-between;
 }
 
@@ -369,4 +373,42 @@ li {
     display: flex;
     justify-content: space-between;
     padding: 35px 0;
+}
+
+.container-footer {
+    display: flex;
+    justify-content: space-around;
+}
+
+.section-footer {
+    padding: 30px 30px 30px 0;
+    color: rgb(195, 195, 195);
+    line-height: 30px;
+}
+
+.none-padding {
+    padding-right: 0;
+}
+
+.font-size-footer {
+    font-size: 1.3rem;
+    color: white;
+}
+
+.riga-small {
+    width: 13%;
+}
+
+.fa-color {
+    color: rgb(195, 195, 195);
+}
+
+.p-30 {
+    padding-bottom: 30px;
+}
+
+footer a {
+    text-decoration: none;
+    padding: 0.5rem 0.2rem;
+    color: rgb(195, 195, 195);
 }
